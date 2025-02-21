@@ -1,7 +1,43 @@
-echo "# Wenlvbaijia.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Wenlvbaijia/Wenlvbaijia.github.io.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人博客</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- 网站头部 -->
+  <header>
+    <h1>我的个人博客</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">文章</a></li>
+        <li><a href="#">关于我</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- 网站主体内容 -->
+  <main>
+    <article>
+      <h2>第一篇博客文章</h2>
+      <p>这是我的第一篇博客文章内容。这里可以写下你想要分享的各种信息，比如生活感悟、技术经验等等。</p>
+      <a href="#">阅读更多</a>
+    </article>
+    <article>
+      <h2>第二篇博客文章</h2>
+      <p>这是第二篇博客文章的内容，继续分享一些有趣的事情。</p>
+      <a href="#">阅读更多</a>
+    </article>
+  </main>
+  <!-- 网站底部 -->
+  <footer>
+    <p>&copy; 2025 我的个人博客. 保留所有权利</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
